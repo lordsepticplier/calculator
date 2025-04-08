@@ -10,3 +10,4 @@ def calculate ( method , a , b ) :
     'add': add ,
     'subtract': subtract
   }
+return operations [ operation ]( a , b )
