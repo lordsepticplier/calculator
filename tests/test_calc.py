@@ -1,10 +1,10 @@
 import pytest
-from calc.calc import add,subtract,multiply,calculate
+from calc.calc import plus,subtract,multiply,calculate
 
 def test_add () :
-  assert add(5 , 2) == 7
-  assert add(-1 , 2) == 1
-  assert add(-1 , -5) == -6
+  assert plus(5 , 2) == 7
+  assert plus(-1 , 2) == 1
+  assert plus(-1 , -5) == -6
 
 def test_subtract () :
   assert subtract(5 , 2) == 3
