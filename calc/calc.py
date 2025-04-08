@@ -10,6 +10,4 @@ def calculate ( method , a , b ) :
     'add': add ,
     'subtract': subtract
   }
-  if method not in methods :
-    raise ValueError ( f " Unsupported method : { method } " )
-  return methods [ method ]( a , b )
+  return methods[method]( a , b )
