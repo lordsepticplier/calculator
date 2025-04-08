@@ -6,8 +6,10 @@ def subtract (a , b ) :
   
 def calculate ( method , a , b ) :
   
-  method = {
+  methods = {
     'add': add ,
     'subtract': subtract
   }
-  return method [ method ]( a , b )
+  if method not in methods :
+    raise ValueError ( f " Unsupported method : { method } " )
+  return methods [ method ]( a , b )
