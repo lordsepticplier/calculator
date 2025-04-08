@@ -7,8 +7,8 @@ def subtract (a , b ) :
 def calculate ( method , a , b ) :
   
   method = {
-    ’ add ’: add ,
-    ’ subtract ’: subtract
+    'add': add ,
+    'subtract': subtract
   }
 
   if method not in method :
