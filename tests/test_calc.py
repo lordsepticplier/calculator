@@ -1,5 +1,5 @@
 import pytest
-from calc.calc import add,subtract,multiply,calculate
+from calculator.calc.calc import add,subtract,multiply,calculate
 
 def test_add () :
   assert add(5 , 2) == 7
