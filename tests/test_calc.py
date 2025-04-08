@@ -17,6 +17,6 @@ assert multiply ( -1 , 3) == -3
 assert multiply ( -1 , -1) == 1
 
 def test_calculate () :
-assert calculate ( ’add ’ , 5 , 2) == 7
-assert calculate ( ’subtract ’ , 6 , 3) == 3
-assert calculate ( ’multiply ’ , 4 , 2) == 8
+assert calculate ( 'add' , 5 , 2) == 7
+assert calculate ( 'subtract' , 6 , 3) == 3
+assert calculate ( 'multiply' , 4 , 2) == 8
