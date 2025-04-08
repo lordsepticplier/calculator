@@ -5,7 +5,7 @@ def subtract (a , b ) :
   return a - b
 
 def multiply (a , b ) :
-  return a x b
+  return a * b
   
 def calculate ( method , a , b ) :
   
