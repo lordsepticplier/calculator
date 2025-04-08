@@ -7,7 +7,7 @@ def subtract (a , b ) :
 def calculate ( method , a , b ) :
   
   methods = {
-    'add': add ,
+    'plus': plus ,
     'subtract': subtract
   }
   return methods[method]( a , b )
